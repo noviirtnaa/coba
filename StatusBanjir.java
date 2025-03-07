@@ -11,11 +11,11 @@ public class StatusBanjir {
     // Method untuk menentukan status berdasarkan tinggi banjir
     public void check_status() {
         if (tinggi_banjir >= 0 && tinggi_banjir <= 25) {
-            status = "Amannnn";
+            status = "Aman";
         } else if (tinggi_banjir >= 26 && tinggi_banjir <= 50) {
             status = "SIAGA I";
         } else if (tinggi_banjir >= 51 && tinggi_banjir <= 100) {
-            status = "AWASSS";
+            status = "AWAS";
         } else {
             status = "Data tidak valid";
         }
